@@ -1,0 +1,58 @@
+{
+	"inline-bookmarks.expert.custom.styles": {
+		"default": {
+			"gutterIconPath": "images/bookmark-blue.svg",
+			"overviewRulerColor": "rgba(21, 126, 251, 0.7)",
+			"light": {
+				"fontWeight": "bold"
+			},
+			"dark": {
+				"color": "Chocolate"
+			}
+		},
+		"red": {
+			"gutterIconPath": "images/bookmark-red.svg",
+			"light": {
+				"fontWeight": "bold"
+			},
+			"dark": {
+				"color": "Chocolate"
+			}
+		},
+		"blue": {
+			"gutterIconPath": "images/bookmark-blue.svg",
+			"light": {
+				"fontWeight": "bold"
+			},
+			"dark": {
+				"color": "Chocolate"
+			}
+		},
+		"green": {
+			"gutterIconPath": "images/bookmark-green.svg",
+			"light": {
+				"fontWeight": "bold"
+			},
+			"dark": {
+				"color": "Chocolate"
+			}
+		},
+		"purple": {
+			"gutterIconPath": "images/bookmark-purple.svg",
+			"light": {
+				"fontWeight": "bold"
+			},
+			"dark": {
+				"color": "Chocolate"
+			}
+		}
+	},
+	 
+		"inline-bookmarks.expert.custom.words.mapping": {
+			"blue": ["@audit\\-info[ \\t\\n]"],
+			"purple": ["@audit\\-issue[ \t\\n]"],
+			"green": ["@audit\\-ok[ \\t\\n]"],
+			"red": ["@audit[ \\t\\n]"]
+		}
+	
+}

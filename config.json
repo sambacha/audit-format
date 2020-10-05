@@ -1,0 +1,7 @@
+{
+	"inline-bookmarks.expert.custom.words.mapping": {
+    "blue": ["@audit\\-info[ \\t\\n]"],
+    "purple": ["@audit\\-issue[ \t\\n]"],
+    "green": ["@audit\\-ok[ \\t\\n]"],
+    "red": ["@audit[ \\t\\n]"]
+}
