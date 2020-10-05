@@ -1,0 +1,45 @@
+# 
+
+# top-most EditorConfig file
+root = true
+
+# All files
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.sol]
+indent_size = 4
+
+# GNU make
+# https://www.gnu.org/software/make/manual/html_node/Recipe-Syntax.html
+[Makefile]
+indent_style = tab
+
+# Python
+# https://www.python.org/dev/peps/pep-0008/#code-lay-out
+[*.py]
+indent_size = 4
+indent_style = space
+
+# Shell
+# https://google.github.io/styleguide/shell.xml#Indentation
+[*.{bash,sh,zsh}]
+indent_size = 2
+indent_style = space
+
+# Svelte
+# https://github.com/sveltejs/svelte/blob/master/.editorconfig
+[*.svelte]
+indent_size = 2
+indent_style = tab
+
+# TOML
+# https://github.com/toml-lang/toml/tree/master/examples
+[*.toml]
+indent_size = 2
+indent_style = space
