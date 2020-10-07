@@ -1,58 +1,98 @@
 {
-	"inline-bookmarks.expert.custom.styles": {
-		"default": {
-			"gutterIconPath": "images/bookmark-blue.svg",
-			"overviewRulerColor": "rgba(21, 126, 251, 0.7)",
-			"light": {
-				"fontWeight": "bold"
-			},
-			"dark": {
-				"color": "Chocolate"
-			}
-		},
-		"red": {
-			"gutterIconPath": "images/bookmark-red.svg",
-			"light": {
-				"fontWeight": "bold"
-			},
-			"dark": {
-				"color": "Chocolate"
-			}
-		},
-		"blue": {
-			"gutterIconPath": "images/bookmark-blue.svg",
-			"light": {
-				"fontWeight": "bold"
-			},
-			"dark": {
-				"color": "Chocolate"
-			}
-		},
-		"green": {
-			"gutterIconPath": "images/bookmark-green.svg",
-			"light": {
-				"fontWeight": "bold"
-			},
-			"dark": {
-				"color": "Chocolate"
-			}
-		},
-		"purple": {
-			"gutterIconPath": "images/bookmark-purple.svg",
-			"light": {
-				"fontWeight": "bold"
-			},
-			"dark": {
-				"color": "Chocolate"
-			}
-		}
-	},
-	 
-		"inline-bookmarks.expert.custom.words.mapping": {
-			"blue": ["@audit\\-info[ \\t\\n]"],
-			"purple": ["@audit\\-issue[ \t\\n]"],
-			"green": ["@audit\\-ok[ \\t\\n]"],
-			"red": ["@audit[ \\t\\n]"]
-		}
-	
+    "inline-bookmarks.expert.custom.styles": {
+        "default": {
+            "gutterIconPath": "images/bookmark-blue.svg",
+            "overviewRulerColor": "rgba(21, 126, 251, 0.7)",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "Chocolate"
+            }
+        },
+        "red": {
+            "gutterIconPath": "images/bookmark-red.svg",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "Chocolate"
+            }
+        },
+        "blue": {
+            "gutterIconPath": "images/bookmark-blue.svg",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "Chocolate"
+            }
+        },
+        "green": {
+            "gutterIconPath": "images/bookmark-green.svg",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "Chocolate"
+            }
+        },
+        "purple": {
+            "gutterIconPath": "images/bookmark-purple.svg",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "Chocolate"
+            }
+        },
+        "orange": {
+            "gutterIconPath": "images/bookmark-orange.svg",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "Chocolate"
+            }
+        },
+        "yellow": {
+            "gutterIconPath": "images/bookmark-yellow.svg",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "Chocolate"
+            }
+        },
+        "grey": {
+            "gutterIconPath": "images/bookmark-grey.svg",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "Chocolate"
+            }
+        },
+        "white": {
+            "gutterIconPath": "images/bookmark-white.svg",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "Chocolate"
+            }
+        }
+    },
+
+    "inline-bookmarks.expert.custom.words.mapping": {
+        "blue": ["@audit\\-info[ \\t\\n]"],
+        "purple": ["@audit\\-issue[ \t\\n]"],
+        "green": ["@audit\\-ok[ \\t\\n]"],
+        "red": ["@audit[ \\t\\n]"],
+        "white": ["@docs[ \\t\\n]"],
+        "grey": ["@legal[ \\t\\n]"],
+        "yellow": ["@tests[ \\t\\n]"],
+        "orange": ["@tests\\-modify[ \\t\\n]"]
+    }
+
 }
