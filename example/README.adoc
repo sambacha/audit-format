@@ -1,7 +1,6 @@
 image:https://raw.githubusercontent.com/freight-trust/branding/22cafe8e7f71594a5f4ded9fedc9b9af308ba1e9/sm_banner.svg[Freight Trust Banner,900,role="left"]
 
 
-= Smart Contract Audit Boilerplate
 :url-project: https://freighttrust.com
 :url-docs: https://github.com/freight-trust/pki
 :url-org: https://github.com/freight-trust
@@ -10,6 +9,13 @@ image:https://raw.githubusercontent.com/freight-trust/branding/22cafe8e7f71594a5
 :url-freighttrust: https://freighttrust.com
 :public-key: /gpg/6F6EB43E.asc
 :active-key: {url-group}{public-key}
+:docbook:
+
+:toc:
+
+= Smart Contract Audit Boilerplate
+
+:description: Solidity Audit
 
 == Protocol Overview
 
