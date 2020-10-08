@@ -1,0 +1,120 @@
+image:https://raw.githubusercontent.com/freight-trust/branding/22cafe8e7f71594a5f4ded9fedc9b9af308ba1e9/sm_banner.svg[Freight Trust Banner,900,role="left"]
+
+
+= Smart Contract Audit Boilerplate
+:url-project: https://freighttrust.com
+:url-docs: https://github.com/freight-trust/pki
+:url-org: https://github.com/freight-trust
+:url-group: {url-org}/pki
+:url-site-readme: {url-group}/pki/blob/master/README.adoc
+:url-freighttrust: https://freighttrust.com
+:public-key: /gpg/6F6EB43E.asc
+:active-key: {url-group}{public-key}
+
+== Protocol Overview
+
+`protocol Overview`
+
+=== Signing Key
+
+`curl https://raw.githubusercontent.com/freight-trust/pki/master/6F6EB43E.asc --output 6F6EB43E.asc`
+
+http://keys.gnupg.net/pks/lookup?search=freighttrust&fingerprint=on&op=index[verify on keys.gnupgp]
+
+
+=== Contract Versions Analyzed 
+
+.contract lists
+[options="header,footer"]
+|=======================
+| SHASUM |FILENAME      |NOTES
+|1    |Item 1     |a
+|2    |Item 2     |b
+|3    |Item 3     |c
+|6    |Three items|d
+|=======================
+
+
+* Submission Procedure:
++
+[source,bash]
+-----------------
+#!/bin/bash
+if [ -z $NOSIGN ]; then
+  echo "==> Signing..."
+  shasum -a256 * > ./audit${VERSION}_SHA256SUMS
+  gpg --default-key 6F6EB43E --detach-sig ./audit${VERSION}_SHA256SUMS
+fi
+-----------------
+
+
+=== ERC20 Exploits 
+
+< text >
+
+=== Arithmetic Errors 
+
+< text >
+
+=== Denial of Service / Gas Limits 
+
+< text >
+
+=== Inheritance Shadowing 
+
+< text >
+
+=== Upgradeability 
+
+< text >
+
+=== Stuck Ether 
+
+< text >
+
+=== Timestamp / RNG 
+
+< text >
+
+=== Human in the loop 
+
+< text >
+
+=== Game Theoretic Bugs 
+
+< text >
+
+=== Re-entrancy / recursive send 
+
+< text >
+
+=== Stack issues 
+
+< text >
+
+=== Input-Controlled Jumps 
+
+< text >
+
+=== Incorrect / Missing Modifiers 
+
+< text >
+
+=== Function-Level Correctness / Testing Analysis 
+
+< text >
+
+==== Summary 
+
+< text >
+
+==== Disclaimer
+
+< text >
+
+
+==== Attribution 
+
+< text >
+
+==== License 
