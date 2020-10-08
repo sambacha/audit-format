@@ -1,0 +1,32 @@
+[ Contract Versions Analyzed ]
+
+	${___dirname}/contract$ sha256sum *.sol
+	[_SHASUM_]  ${CONTRACT}.sol
+
+[ ERC20 Exploits ]
+
+[ Arithmetic Errors ]
+
+[ Denial of Service / Gas Limits ]
+
+[ Inheritance Shadowing ]
+
+[ Upgradeability ]
+
+[ Stuck Ether ]
+
+[ Timestamp / RNG ]
+
+[ Human in the loop ]
+
+[ Game Theoretic Bugs ]
+
+[ Re-entrancy / recursive send ]
+
+[ Stack issues ]
+
+[ Input-Controlled Jumps ]
+
+[ Incorrect / Missing Modifiers ]
+
+[ Function-Level Correctness / Testing Analysis ]
