@@ -9,8 +9,8 @@
     {
       "files": ["*.sol", "*.solidity"],
       "options": {
-				"tabWidth": 4,
-				"printWidth": 79,
+        "tabWidth": 4,
+        "printWidth": 79,
         "tabWidth": 4,
         "useTabs": false,
         "singleQuote": false,

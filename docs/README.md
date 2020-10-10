@@ -1,15 +1,12 @@
 # Design Spec
 
-
 Strings should be quoted with double-quotes instead of single-quotes.
 [solidity style guide #other-recommendations](https://solidity.readthedocs.io/en/develop/style-guide.html#other-recommendations)
 
 Spaces are the preferred indentation method.
 [solidity style guide #tabs-or-spaces](https://solidity.readthedocs.io/en/develop/style-guide.html#tabs-or-spaces)
 
-
 [solidity style guide #code-layout](https://solidity.readthedocs.io/en/develop/style-guide.html#code-layout)
-
 
 `npm install --save-dev prettier prettier-plugin-solidity`
 
@@ -29,8 +26,6 @@ Type declarations
 State variables
 Events
 Functions
-
-
 
 ### Naming Styles
 

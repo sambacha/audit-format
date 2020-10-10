@@ -4,8 +4,7 @@
   "rules": {
     "event-name-camelcase": "warn",
     "contract-name-camelcase": "warn",
-    "private-vars-leading-underscore":
-        ["warn", {"strict": false}],
+    "private-vars-leading-underscore": ["warn", { "strict": false }],
     "constructor-syntax": "warn",
     "modifier-name-mixedcase": "warn",
     "func-param-name-mixedcase": "warn",
@@ -13,19 +12,26 @@
     "max-line-length": ["error", 160],
     "not-rely-on-time": "off",
     "prettier/prettier": "error",
-    "reason-string": ["warn", {
-      "maxLength": 64
-    }]
+    "reason-string": [
+      "warn",
+      {
+        "maxLength": 64
+      }
+    ]
   },
   ".prettierrc.json": {
-    "overrides": [{
-      "files": ["*.sol", "*.solidity"],
-      "options": {
-        "printWidth": 80,
-        "tabWidth": 4,
-        "useTabs": false,
-        "singleQuote": false,
-        "bracketSpacing": false,
-        "explicitTypes": "always" }}]
+    "overrides": [
+      {
+        "files": ["*.sol", "*.solidity"],
+        "options": {
+          "printWidth": 80,
+          "tabWidth": 4,
+          "useTabs": false,
+          "singleQuote": false,
+          "bracketSpacing": false,
+          "explicitTypes": "always"
+        }
+      }
+    ]
   }
 }
